@@ -22,7 +22,6 @@ public class UserRepository {
     public User findUserByUsername(String username){
 
         User user = userList.get(username);
-        System.out.println(user);
         return user;
     }
 }
